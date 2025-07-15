@@ -4,40 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MY WEB profolio</title>
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- start end -->
     <header>
-      <div>
-        <img src="img/Depth4Frame.svg" alt="" />
-        <span>My Web Profolio</span>
-      </div>
       <nav>
-        <ul>
-          <li><a href="#"></a>Home</li>
-          <li><a href="#"></a>About</li>
-          <li><a href="#"></a>Services</li>
-          <li><a href="#"></a>Contact</li>
-          <li><a href="#"></a>View Portfolio</li>
-        </ul>
-        <button>Veiw protfolio</button>
+        <div class="logo">
+          <img src="img/Depth4Frame.svg" alt="" />
+          <span>My Web Profolio</span>
+        </div>
+        <div class="links">
+          <ul>
+            <li><a href="#"></a>Home</li>
+            <li><a href="#"></a>About</li>
+            <li><a href="#"></a>Services</li>
+            <li><a href="#"></a>Contact</li>
+            <li><a href="#"></a>View Portfolio</li>
+          </ul>
+          <button>Veiw protfolio</button>
+        </div>
       </nav>
     </header>
     <!-- start fin -->
 
     <!-- srart main -->
     <main>
-      <section id="hero">
-        <h1>Wlocomz to my Web Profolio</h1>
-        <p>
-          I'm a passionate web developer specializing in HTML and CSS. Explore
-          my projects below to see my skills in action.
-        </p>
-        <button>veiw protfolio</button>
+      <section id="Home" class="home">
+        <div>
+          <h1>Wlocome to my Web Profolio</h1>
+          <p>
+            I'm a passionate web developer specializing in HTML and CSS. Explore
+            my projects below to see my skills in action.
+          </p>
+          <button>veiw protfolio</button>
+        </div>
       </section>
 
-      <section id="about">
+      <section id="About" class="about">
         <h2>About</h2>
         <p>
           I am a dedicated web developer with a strong foundation in HTML and
@@ -47,54 +51,58 @@
           development trends.
         </p>
       </section>
-      <section id="services">
+      <section id="Services" class="services">
         <h2>Services</h2>
-        <div class="cards">
-          <a class="card" href="#">
-            <div>
-              <h3>Web design</h3>
+        <a href="#">
+          <div class="card">
+            <div class="text">
+              <h3>Web Design</h3>
               <p>
                 Creating visually appealing and responsive website designs
                 tailored to your brand.
               </p>
             </div>
-            <div><img src="img/1.png" alt="services" /></div>
-          </a>
+            <div class="imags">
+              <img src="img/1.png" alt="" />
+            </div>
+          </div>
+        </a>
 
-          <a class="card" href="#">
-            <div>
+        <a href="#">
+          <div class="card">
+            <div class="text">
               <h3>Front-End Development</h3>
               <p>
                 Implementing designs using HTML, CSS, and JavaScript to create
                 interactive and dynamic websites.
               </p>
             </div>
-            <div>
+            <div class="imags">
               <img src="img/4.png" alt="" />
             </div>
-          </a>
-          <a class="card" href="#">
-            <div>
+          </div>
+        </a>
+        <a  href="#">
+          <div class="card">
+            <div class="text">
               <h3>Website Maintenance</h3>
               <p>
                 Providing ongoing support and updates to ensure your website
                 remains functional and secure.
               </p>
             </div>
-            <div>
-              <img src="img/3.png" alt="servic" />
+            <div class="imags">
+              <img src="img/2.png" alt="" />
             </div>
-          </a>
-        </div>
+          </div>
+        </a>
       </section>
     </main>
     <!-- sarat end main -->
     <footer>
       <nav>
         <ul>
-          <li>
-            <a href="#">Home</a>
-          </li>
+          <li><a href="#">Home</a></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Services</a></li>
           <li><a href="#">Contact</a></li>
