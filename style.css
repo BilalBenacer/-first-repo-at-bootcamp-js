@@ -15,7 +15,7 @@ header nav{
     align-items: center;
     align-self: stretch;
     border-bottom: 1px solid #E5E8EB;
-    z-index: 100;
+   
 }
 nav {
     display: flex;
@@ -49,8 +49,10 @@ header nav .links ul {
     align-items: flex-start;
     flex: 100;
     list-style-type: none;
-    background:#fbfbfb;
 } 
+header nav .links ul li a {
+    background: #ffffff43;
+}
 nav .links button {
     height: 40px;
     background:#b2e6ea;
@@ -99,7 +101,7 @@ main .home div button {
     padding: 0px 20px;
 }
 .about {
-    wax-width:800px;
+    max-width:800px;
     font-size: 22px;
     margin: 1.5rem auto;
     padding: 2rrem;
@@ -167,4 +169,158 @@ footer nav ul li a {
 }
 footer p {
     text-align: center;
+}
+/* start end*/
+div.login {
+    position: absolute;
+    width: 50%;
+    top: 25px;
+    left:450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-position:center;
+    width: 420px;
+
+}
+div.ime {
+    position: absolute;
+    padding: 161px;
+    width: 10px;
+    height: 10px;
+    top: 25px;
+    left:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 100px;
+    min-width: 100px;
+    border-radius: 40px;
+    
+}
+.ime img {
+    position: absolute;
+    width:526px;
+    top: -135px;
+    left: -78px ;
+    border-radius: 70px;
+    padding: 172px 91px 2px;
+}
+
+.wrapper {
+    position: relative;
+    width: 420px;
+    background:transparent;
+    border: 2px solid rgba(255, 255, 255, 0.986);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0,0,0 .2);
+    color: rgba(240, 248, 255, 0.432);
+    border-radius: 20px;
+    padding: 40px 60px;
+}
+.wrapper  h1 {
+    font-size: 36px;
+    text-align: center;
+    color: black;
+}
+.wrapper .input-box {
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+.input-box input {
+    width: 283px;
+    height: 100%;
+    background: rgba(129, 159, 205, 0);
+    border: none;
+    outline: none;
+    border:2px solid rgb(10, 11, 11);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 30px;
+    margin: -1px 0px 0px ;
+}
+.input-box input:hover {
+    background: rgba(136, 150, 172, 0.265);
+}
+.input-box input::placeholder {
+    color: #ffffff;
+}
+.wrapper .input-bot {
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+.input-bot input {
+    width: 283px;
+    height: 100%;
+    background: rgba(16, 78, 170, 0);
+    border: none;
+    outline: none;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius:  40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 30px;
+    margin: -1px 0px 0px ;
+}
+.input-bot input:hover {
+    background: rgba(136, 150, 172, 0.265);
+}
+.input-bot input::placeholder {
+    color: #fff;
+}
+.input-box i {
+    position: absolute;
+    top: 127px;
+    left: 325px;
+}
+.input-bot i{
+    position: absolute;
+    top: 127px;
+    left: 325px;
+}
+.wrapper .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+.rememeber-forgot label input {
+    accent-color: #fff;
+    margin-right: 3px;
+}
+.rememeber-forgot a :hover {
+    text-decoration: underline;
+}
+.wrapper .btn {
+    width: 300px;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 50px;  
+    box-shadow: 0 0 40px rgba(5, 5, 6, 0.442);
+    cursor: pointer;
+    font-size: 16px;
+    color: #404d86;
+    font-weight: 600;
+}
+.wrapper .register-link {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+    color: black;
+}
+.register-link p a {
+    color: #f4efef;
+    text-decoration: none;
+    font-weight: 600;
+}
+.register-link p a :hover{
+    text-decoration: underline;
 }
